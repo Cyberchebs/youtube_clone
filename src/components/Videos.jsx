@@ -1,14 +1,15 @@
 import React from "react";
 import { Stack, Box } from "@mui/material";
 import { VideoCard, ChannelCard } from "./";
+import Loader from "./Loader";
 
 const Videos = ({ videos, direction }) => {
-  if (!videos?.length) return "loading...";
+  if (!videos?.length) return <Loader />;
   return (
     <Stack
       direction={direction || "row"}
       flexWrap="wrap"
-      justifyContent="start"
+      justifyContent="center"
       gap={2}
     >
       {videos.map((item, idx) => (
