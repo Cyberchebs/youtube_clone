@@ -12,11 +12,11 @@ a {
 
 ::-webkit-scrollbar {
   width: 0px;
-  height: 5px;
+  height: 3px;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(185, 22, 22);
+  background-color: rgb(201, 23, 23);
   border-radius: 10px;
   height: 200px;
 }
