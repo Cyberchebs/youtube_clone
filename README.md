@@ -1,1 +1,5 @@
-youtube clone react app where you can watch youtube videos made using material ui and axios and rapid api
+youtube clone react app
+
+in this app you can watch youtube videos in real time with real time updates from youtube
+
+technologies used : react, axios, material ui, 
